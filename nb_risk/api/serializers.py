@@ -82,9 +82,10 @@ class VulnerabilitySerializer(NetBoxModelSerializer):
             "name",
             "cve",
             "description",
+            "notes",
         ]
 
-        brief_fields = ['id', 'url', 'display', 'name', 'description']
+        brief_fields = ['id', 'url', 'display', 'name', 'description', 'notes']
 
 
 # VulnerabilityAssignment Serializers
